@@ -1,5 +1,3 @@
-import random
-
 from numpy import *
 import matplotlib.pyplot as plt
 
@@ -24,4 +22,3 @@ plt.xlabel('nums')
 plt.ylabel('bins')
 plt.hist(nums, bins)
 plt.show()
-
